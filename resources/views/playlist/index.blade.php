@@ -87,24 +87,7 @@
             <div class="px-6 pt-4 pb-2">
                 <table class="w-full table-auto">
                     <tbody>
-                        <tr>
-                            <td class="border px-4 py-2">Song 1</td>
-                        </tr>
-                        <tr>
-                            <td class="border px-4 py-2">Song 2</td>
-                        </tr>
-                        <tr>
-                            <td class="border px-4 py-2">Song 3</td>
-                        </tr>
-                        <tr>
-                            <td class="border px-4 py-2">Song 4</td>
-                        </tr>
-                        <tr>
-                            <td class="border px-4 py-2">Song 5</td>
-                        </tr>
-                        <tr>
-                            <td class="border px-4 py-2">Song 6</td>
-                        </tr>
+                        
                     </tbody>
                 </table>
             </div>

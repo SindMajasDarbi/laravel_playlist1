@@ -8,8 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Playlist extends Model
 {
     use HasFactory;
-    protected $fillable = [
-        'name',
-        'tag',
-    ];
+    
+    protected $fillable = ['name', 'tag'];
+
+    // Define many-to-many relationship with Song
+    public function songs()
+    {
+        return $this->belongsToMany(Song::class);
+    }
 }
